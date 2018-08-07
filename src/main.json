@@ -1,0 +1,29 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/mine/index",
+        "pages/lesson/index",
+        "pages/about/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#A8B3BF",
+        "selectedColor": "#48CCCE",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "足迹",
+            "iconPath": "static/imgs/footmark.png",
+            "selectedIconPath": "static/imgs/footmark_active.png"
+        }, {
+            "pagePath": "pages/mine/index",
+            "text": "我的",
+            "iconPath": "static/imgs/mine.png",
+            "selectedIconPath": "static/imgs/mine_active.png"
+        }]
+    },
+    "debug": true
+}

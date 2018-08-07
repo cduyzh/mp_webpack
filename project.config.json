@@ -1,0 +1,161 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.1",
+	"appid": "appid",
+	"projectname": "projectname",
+	"svr": "",
+	"client": "",
+	"qcloudRoot": "",
+	"miniprogramRoot": "./dist/",
+	"pluginRoot": "",
+	"scripts": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 18,
+			"list": [
+				{
+					"id": 0,
+					"name": "我的",
+					"pathName": "pages/mine/index",
+					"query": "invite=123"
+				},
+				{
+					"id": 1,
+					"name": "机构",
+					"pathName": "pages/innovation/index",
+					"query": "scene=fhzyWmEsYZ4r",
+					"scene": "1047"
+				},
+				{
+					"id": 2,
+					"name": "机构详情",
+					"pathName": "pages/innovation/detail",
+					"query": "institutionId=lWx0I2xHTnr5"
+				},
+				{
+					"id": 3,
+					"name": "lesson",
+					"pathName": "pages/lesson/index",
+					"query": "courseId=nV3fz4XY1zLH&institutionId=f5wL7Agd1Sr5&groupCommodityId=243"
+				},
+				{
+					"id": 4,
+					"name": "机构列表",
+					"pathName": "pages/lesson/list",
+					"query": "institutionId=Xxy1IZwgF92H"
+				},
+				{
+					"id": -1,
+					"name": "关于页面",
+					"pathName": "pages/about/index",
+					"query": "invite=123"
+				},
+				{
+					"id": 6,
+					"name": "新老用户注册",
+					"pathName": "pages/signup/signup",
+					"query": "from=lesson"
+				},
+				{
+					"id": 7,
+					"name": "课程报名结果",
+					"pathName": "pages/signup/result",
+					"query": "result=1"
+				},
+				{
+					"id": -1,
+					"name": "我的课程",
+					"pathName": "pages/mine/my_lesson",
+					"query": ""
+				},
+				{
+					"id": 11,
+					"name": "查看学员档案",
+					"pathName": "pages/mine/student_archives",
+					"query": "invite=123"
+				},
+				{
+					"id": -1,
+					"name": "在线课程",
+					"pathName": "pages/lesson/online",
+					"query": ""
+				},
+				{
+					"id": 11,
+					"name": "播放",
+					"pathName": "pages/lesson/play",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "机构申请",
+					"pathName": "pages/index/apply",
+					"query": ""
+				},
+				{
+					"id": 15,
+					"name": "添加学员档案",
+					"pathName": "pages/mine/add_archives",
+					"query": "invite=123"
+				},
+				{
+					"id": 15,
+					"name": "选择学员档案",
+					"pathName": "pages/mine/chose_archives",
+					"query": "from=lesson"
+				},
+				{
+					"id": 16,
+					"name": "课程报名确认",
+					"pathName": "pages/lesson/order_confirm",
+					"query": ""
+				},
+				{
+					"id": 16,
+					"name": "课程详情",
+					"pathName": "pages/lesson/index",
+					"query": "courseId=s0e5hyJjr2KS&institutionId=fhzyWmEsYZ4r"
+				},
+				{
+					"id": -1,
+					"name": "机构",
+					"pathName": "pages/innovation/index",
+					"query": "institutionId=fhzyWmEsYZ4r",
+					"scene": "1011"
+				},
+				{
+					"id": 18,
+					"name": "拼团详情",
+					"pathName": "pages/collage/index",
+					"query": "groupSaleId=HGhBw2EfTqUm"
+				}
+			]
+		}
+	}
+}
