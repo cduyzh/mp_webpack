@@ -3799,9 +3799,11 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
-mpvue-entry@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/mpvue-entry/-/mpvue-entry-1.4.7.tgz#c1cfbcb3be74c52a680a80940f90a94ac710ebb3"
+mpvue-entry@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/mpvue-entry/-/mpvue-entry-1.5.2.tgz#b2910469236931fed63d634d9585222fcd77b5ba"
+  dependencies:
+    mkdirp "^0.5.1"
 
 mpvue-loader@^1.1.2-rc.5:
   version "1.1.2-rc.5"
