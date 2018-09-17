@@ -15,10 +15,10 @@ module.exports = {
     extends: 'standard',
     // required to lint *.vue files
     plugins: [
-        'html'
+        'html',
     ],
     // add your custom rules here
-    'rules': {
+    rules: {
         // allow paren-less arrow functions
         'arrow-parens': 0,
         // 客户端允许在条件中写require，webpack支持这种语法。并且按需加载时必须这样写
@@ -29,7 +29,7 @@ module.exports = {
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
         'import/extensions': ['off', 'always', {
             'js': 'never',
-            'vue': 'never'
+            'vue': 'never',
         }],
         // 4格缩进
         'indent': [2, 4, { SwitchCase: 1 }],
@@ -89,8 +89,8 @@ module.exports = {
         // 允许在原生对象上加接口
         'no-extend-native': 0,
         // if和花括号必须写在同一行，并且要把内容写在新行里
-        'brace-style': [2, '1tbs', { 'allowSingleLine': false }],
-        // 允许在变量前后加下划线
+        'brace-style': [2, 'stroustrup', { 'allowSingleLine': false }],
+        // 禁止在变量前后加下划线
         'no-underscore-dangle': 0,
         // 允许在class中写不使用this的方法，不强制改为静态方法
         'class-methods-use-this': 0,
@@ -106,6 +106,7 @@ module.exports = {
         'prefer-destructuring': 0,
         // 函数调用时参数过多导致换行，不强制每个参数都占一行
         'function-paren-newline': 0,
+        // 'object-shorthand': 0,
     },
     globals: {
         App: true,

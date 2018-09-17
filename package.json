@@ -8,22 +8,26 @@
         "dev": "node build/dev-server.js",
         "start": "node build/dev-server.js",
         "build": "rimraf dist && node build/build.js",
-        "lint": "eslint --ext .js,.vue src",
+        "lint": "eslint --ext .js,.vue -f node_modules/eslint-friendly-formatter src --fix",
         "npm": "npm run dev"
     },
     "dependencies": {
+        "crypto-js": "^3.1.9-1",
+        "eslint-plugin-vue": "2.1.0",
         "mockjs": "^1.0.1-beta3",
         "moment": "^2.22.2",
         "mpvue": "^1.0.13",
         "mpvue-router-patch": "^0.2.1",
         "mpvue-wxparse": "^0.6.5",
         "prettier": "1.12.0",
-        "vuex": "^3.0.1"
+        "vuex": "^3.0.1",
+        "webpack-dev-server": "2.7.1"
     },
     "devDependencies": {
         "babel-core": "^6.22.1",
         "babel-eslint": "^7.1.1",
         "babel-loader": "^7.1.1",
+        "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
         "babel-plugin-transform-runtime": "^6.22.0",
         "babel-preset-env": "^1.3.2",
         "babel-preset-stage-2": "^6.22.0",
@@ -35,7 +39,7 @@
         "cssnano": "^3.10.0",
         "eslint": "^3.19.0",
         "eslint-config-standard": "^6.2.1",
-        "eslint-friendly-formatter": "^3.0.0",
+        "eslint-friendly-formatter": "3.0.0",
         "eslint-loader": "^1.7.1",
         "eslint-plugin-html": "^3.0.0",
         "eslint-plugin-promise": "^3.4.0",
@@ -71,7 +75,7 @@
         "webpack-bundle-analyzer": "^2.2.1",
         "webpack-dev-middleware-hard-disk": "^1.12.0",
         "webpack-merge": "^4.1.0",
-        "webpack-mpvue-asset-plugin": "^0.1.1"
+        "webpack-mpvue-asset-plugin": "0.1.1"
     },
     "engines": {
         "node": ">= 4.0.0",
