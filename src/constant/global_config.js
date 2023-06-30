@@ -15,7 +15,7 @@ configure.exposePort = configure.devEnv ? 29963 : 80
 // 请求协议，可改为https
 configure.httpProtocal = configure.is_server ? 'https:' : 'https:'
 // 暴露给用户的主机名，不含端口号  测试环境
-configure.hostname = configure.isDevEnv ? 'https://api.dev.xiaojing0.com' : 'https://xiaojing0.com'
+configure.hostname = configure.isDevEnv ? 'https://api.dev.xxx.com' : 'https://api.com'
 // 暴露给用户的主机名，包含端口号
 Object.defineProperty(configure, 'host', {
     get() {
